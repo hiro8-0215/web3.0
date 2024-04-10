@@ -1,0 +1,16 @@
+#include <stdio.h>
+void main(void){
+	int i,j,x[12][12];
+	for(i=0;i<12;i++){
+		for(j=0;j<12;j++){
+			x[i][j]=(i+1)*(j+1);
+		}
+	}
+		for(i=0;i<12;i++){
+			for(j=0;j<12;j++){
+				printf("%4d",x[i][j]);
+		}
+		printf("\n");
+	}
+	
+}
